@@ -14,17 +14,17 @@ class Footer extends Component{
                         <div className="col-md-4">
                             <ul className="list-inline social-buttons">
                                 <li className="list-inline-item">
-                                    <a href="#something">
+                                    <a href="http://twitter.com">
                                         <i className="fa fa-twitter"/>
                                     </a>
                                 </li>
                                 <li className="list-inline-item">
-                                    <a href="#something">
+                                    <a href="http://facebook.com">
                                         <i className="fa fa-facebook-f"></i>
                                     </a>
                                 </li>
                                 <li className="list-inline-item">
-                                    <a href="#something">
+                                    <a href="http://instagram.com">
                                         <i className="fa fa-instagram"></i>
                                     </a>
                                 </li>
