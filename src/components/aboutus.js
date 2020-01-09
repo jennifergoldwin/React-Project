@@ -5,7 +5,7 @@ class About extends Component{
     render(){
         return(
             <React.Fragment>
-                {/* <ParticlesBg type="square" bg={true}/> */}
+                <ParticlesBg type="square" bg={true}/>
                 <section class="page-section" id="about">
                     <div class="container">
                         <div class="row justify-content-center">

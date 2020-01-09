@@ -7,7 +7,7 @@ class Team extends Component{
     render(){
         return(
             <React.Fragment>
-                {/* <ParticlesBg type="list" bg={true}/> */}
+                <ParticlesBg type="list" bg={true}/>
                 <section className="page-section" id="team">
                     <div className="container">
                         <div className="row">

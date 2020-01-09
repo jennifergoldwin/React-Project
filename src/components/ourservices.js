@@ -6,7 +6,7 @@ class Services extends Component{
     render(){
         return(
             <React.Fragment>
-                {/* <ParticlesBg type="cobweb" bg={true}/> */}
+                <ParticlesBg type="cobweb" bg={true}/>
             
                 <section className="page-section" id="services">
                     <div className="container">

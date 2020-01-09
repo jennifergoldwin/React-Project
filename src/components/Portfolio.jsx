@@ -5,7 +5,7 @@ import ParticlesBg from 'particles-bg';
 export default ({ portfolioLinks }) => {
     return (
         <React.Fragment>
-          {/* <ParticlesBg type="polygon" bg={true}/> */}
+          <ParticlesBg type="polygon" bg={true}/>
         
           <section className="page-section" id="portfolio">
           <div className="container">
