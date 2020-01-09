@@ -7,7 +7,7 @@ class Team extends Component{
     render(){
         return(
             <React.Fragment>
-                <ParticlesBg type="list" bg={true}/>
+                {/* <ParticlesBg type="list" bg={true}/> */}
                 <section className="page-section" id="team">
                     <div className="container">
                         <div className="row">
@@ -24,17 +24,17 @@ class Team extends Component{
                                     <p className="text-muted">Lead Designer</p>
                                     <ul className="list-inline social-buttons">
                                         <li className="list-inline-item">
-                                            <a href="#something">
+                                            <a href="http://twitter.com">
                                                 <i className="fa fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li className="list-inline-item">
-                                            <a href="#something">
+                                            <a href="http://facebook.com">
                                                 <i className="fa fa-facebook-f"></i>
                                             </a>
                                         </li>
                                         <li className="list-inline-item">
-                                            <a href="#something">
+                                            <a href="http://instagram.com" rel="nooper noreferrer">
                                                 <i className="fa fa-instagram"></i>
                                             </a>
                                         </li>
@@ -49,17 +49,17 @@ class Team extends Component{
                                     <p className="text-muted">Lead Marketer</p>
                                     <ul className="list-inline social-buttons">
                                         <li className="list-inline-item">
-                                            <a href="#something">
+                                            <a href="http://twitter.com">
                                                 <i className="fa fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li className="list-inline-item">
-                                            <a href="#something">
+                                            <a href="http://facebook.com">
                                                 <i className="fa fa-facebook-f"></i>
                                             </a>
                                         </li>
                                         <li className="list-inline-item">
-                                            <a href="#something">
+                                            <a href="http://instagram.com">
                                                 <i className="fa fa-instagram"></i>
                                             </a>
                                         </li>
@@ -73,17 +73,17 @@ class Team extends Component{
                                     <p className="text-muted">Lead Developer</p>
                                     <ul className="list-inline social-buttons">
                                         <li className="list-inline-item">
-                                            <a href="#something">
+                                            <a href="http://twitter.com">
                                                 <i className="fa fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li className="list-inline-item">
-                                            <a href="#something">
+                                            <a href="http://facebook.com">
                                                 <i className="fa fa-facebook-f"></i>
                                             </a>
                                         </li>
                                         <li className="list-inline-item">
-                                            <a href="#something">
+                                            <a href="http://instagram.com">
                                                 <i className="fa fa-instagram"></i>
                                             </a>
                                         </li>

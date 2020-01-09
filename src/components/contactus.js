@@ -21,7 +21,7 @@ class Contact extends Component{
     render(){
         return(
             <React.Fragment>
-                <ParticlesBg type="color" bg={true}/>
+                {/* <ParticlesBg type="color" bg={true}/> */}
                 <section className="page-section" id="contact">
                     
                     <div className="container">

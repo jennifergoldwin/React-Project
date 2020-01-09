@@ -46,38 +46,38 @@ function App() {
         <div className="App">
             <audio  autoPlay loop src={Music}></audio>
             <Header/>
-        <Switch>
-            <Route exact path='/'>
-                <header className="masthead" id="page-top">
-                    <div className="container">
-                    <div className="intro-text">
-                        <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="/Services">Tell Me More</a>
-                    </div>
-                    </div>
-                </header>
-            </Route>
+            <Switch>
+                <Route exact path='/'>
+                    <header className="masthead" id="page-top">
+                        <div className="container">
+                        <div className="intro-text">
+                            <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="/Services">Tell Me More</a>
+                        </div>
+                        </div>
+                    </header>
+                </Route>
 
-            <Route path="/About">
-                <About />
-            </Route>
+                <Route path="/About">
+                    <About />
+                </Route>
 
-            <Route path="/Services">
-                <Services />
-            </Route>
+                <Route path="/Services">
+                    <Services />
+                </Route>
 
-            <Route path="/Team">
-                <Team />
-            </Route>
+                <Route path="/Team">
+                    <Team />
+                </Route>
 
-            <Route path="/Portfolio">
-                <Portfolio portfolioLinks={portfolioLinks}/>
-            </Route>
+                <Route path="/Portfolio">
+                    <Portfolio portfolioLinks={portfolioLinks}/>
+                </Route>
 
-            <Route path="/Contact">
-                <Contact/>
-            </Route>
-        </Switch>
-        <Footer/>
+                <Route path="/Contact">
+                    <Contact/>
+                </Route>
+            </Switch>
+            <Footer/>
     </div>
 
 
